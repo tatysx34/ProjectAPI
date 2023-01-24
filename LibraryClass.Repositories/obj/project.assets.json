@@ -1,0 +1,90 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "LibraryClass/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/LibraryClass.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibraryClass.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LibraryClass/1.0.0": {
+      "type": "project",
+      "path": "../LibraryClass/LibraryClass.Models.csproj",
+      "msbuildProject": "../LibraryClass/LibraryClass.Models.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "LibraryClass >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/tatiana/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/tatiana/Desktop/MKTFY/MainProject/LibraryClass.Repositories/LibraryClass.Repositories.csproj",
+      "projectName": "LibraryClass.Repositories",
+      "projectPath": "/Users/tatiana/Desktop/MKTFY/MainProject/LibraryClass.Repositories/LibraryClass.Repositories.csproj",
+      "packagesPath": "/Users/tatiana/.nuget/packages/",
+      "outputPath": "/Users/tatiana/Desktop/MKTFY/MainProject/LibraryClass.Repositories/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/tatiana/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "/usr/local/share/dotnet/library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "/Users/tatiana/Desktop/MKTFY/MainProject/LibraryClass/LibraryClass.Models.csproj": {
+              "projectPath": "/Users/tatiana/Desktop/MKTFY/MainProject/LibraryClass/LibraryClass.Models.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
