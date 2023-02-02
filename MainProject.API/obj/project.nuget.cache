@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6+FCYeythDl8aWufKH1FSDrGdCWClMtjDa1l3WqJ4MBf/BHgUCvFTlvmWwZMwPi1GKU1prr7zZ3guonjQ39aVg==",
+  "dgSpecHash": "Lnis5FoEPR4R7Tqf0BVLcrLfAdbxbFJguToClkdTcT1yc+cpZGM1VH36wcYRwel1P2b5vGWExBxXwqB/ui7QOg==",
   "success": true,
-  "projectFilePath": "/Users/tatiana/Desktop/MKTFY/MainProject/MainProject.API/MainProject.API.csproj",
+  "projectFilePath": "/Users/tatiana/Desktop/MyProject/ProjectAPI/mainproject.api/MainProject.API.csproj",
   "expectedPackageFiles": [
     "/Users/tatiana/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "/Users/tatiana/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",

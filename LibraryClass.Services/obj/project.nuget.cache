@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GtiVPt8oOluzeE5fDbSbFmu+UnEB+372ou8LuIQyk7YZbu1hXFpV7D1LieUytvjpG3vnr47MEzdZuxaJ9566tw==",
+  "dgSpecHash": "E1LFL+bxoaUGXlUBYzakTPT/jjcyryUnkkbiNolUhA+r1W1Il0yyuSRXcKX0HXLE9oXSwPo8ss6Ca8AhrDG8wQ==",
   "success": true,
-  "projectFilePath": "/Users/tatiana/Desktop/MKTFY/MainProject/LibraryClass.Services/LibraryClass.Services.csproj",
+  "projectFilePath": "/Users/tatiana/Desktop/MyProject/ProjectAPI/LibraryClass.Services/LibraryClass.Services.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

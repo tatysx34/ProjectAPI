@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/tatiana/Desktop/MKTFY/MainProject/LibraryClass.Repositories/LibraryClass.Repositories.csproj",
+      "projectUniqueName": "/Users/tatiana/Desktop/MyProject/ProjectAPI/LibraryClass.Repositories/LibraryClass.Repositories.csproj",
       "projectName": "LibraryClass.Repositories",
-      "projectPath": "/Users/tatiana/Desktop/MKTFY/MainProject/LibraryClass.Repositories/LibraryClass.Repositories.csproj",
+      "projectPath": "/Users/tatiana/Desktop/MyProject/ProjectAPI/LibraryClass.Repositories/LibraryClass.Repositories.csproj",
       "packagesPath": "/Users/tatiana/.nuget/packages/",
-      "outputPath": "/Users/tatiana/Desktop/MKTFY/MainProject/LibraryClass.Repositories/obj/",
+      "outputPath": "/Users/tatiana/Desktop/MyProject/ProjectAPI/LibraryClass.Repositories/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/tatiana/.nuget/NuGet/NuGet.Config"
@@ -52,8 +52,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/tatiana/Desktop/MKTFY/MainProject/LibraryClass/LibraryClass.Models.csproj": {
-              "projectPath": "/Users/tatiana/Desktop/MKTFY/MainProject/LibraryClass/LibraryClass.Models.csproj"
+            "/Users/tatiana/Desktop/MyProject/ProjectAPI/LibraryClass/LibraryClass.Models.csproj": {
+              "projectPath": "/Users/tatiana/Desktop/MyProject/ProjectAPI/LibraryClass/LibraryClass.Models.csproj"
             }
           }
         }
