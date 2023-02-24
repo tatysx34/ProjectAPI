@@ -1,0 +1,35 @@
+version: '3.4'
+
+services:
+  mainproject.api:
+    container_name: "Project.API" 
+    image: ${DOCKER_REGISTRY-}mainproject
+    build:
+      context: .
+      dockerfile: MainProject.API/Dockerfile
+    environment:
+      - ConnectionStrings__DefaultConnection=Server=mainproject.db;Database=devdb;User Id=devdbuser;password=devdbpassword
+      - Auth0__Domain=https://dev-imv7dvp8n7sd2xfz.us.auth0.com/
+      - Auth0__Audience=http//marketforyou.com
+      - Auth0__TokenRedirectUrl=http://localhost:3587
+    ports:
+      - "3587:80" 
+      - "3588:443"
+    depends_on:
+      - mainproject.db
+
+  mainproject.db:
+    restart: on-failure
+    image: "postgis/postgis:14-3.1-alpine"
+    container_name: "mainproject.db"
+    environment:
+      - POSTGRES_USER=devdbuser
+      - POSTGRES_DB=devdb
+      - POSTGRES_PASSWORD=devdbpassword
+    volumes:
+      - mainproject-db:/var/lib/postgresql/data
+    ports:
+      - "35091:5432"
+
+volumes:
+  mainproject-db:

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/tatiana/Desktop/MyProject/ProjectAPI/mainproject.api/MainProject.API.csproj": {}
+    "/Users/tatiana/Desktop/MKTFY/MainProject/MainProject.API/MainProject.API.csproj": {}
   },
   "projects": {
-    "/Users/tatiana/Desktop/MyProject/ProjectAPI/LibraryClass.Repositories/LibraryClass.Repositories.csproj": {
+    "/Users/tatiana/Desktop/MKTFY/MainProject/LibraryClass.Repositories/LibraryClass.Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/tatiana/Desktop/MyProject/ProjectAPI/LibraryClass.Repositories/LibraryClass.Repositories.csproj",
+        "projectUniqueName": "/Users/tatiana/Desktop/MKTFY/MainProject/LibraryClass.Repositories/LibraryClass.Repositories.csproj",
         "projectName": "LibraryClass.Repositories",
-        "projectPath": "/Users/tatiana/Desktop/MyProject/ProjectAPI/LibraryClass.Repositories/LibraryClass.Repositories.csproj",
+        "projectPath": "/Users/tatiana/Desktop/MKTFY/MainProject/LibraryClass.Repositories/LibraryClass.Repositories.csproj",
         "packagesPath": "/Users/tatiana/.nuget/packages/",
-        "outputPath": "/Users/tatiana/Desktop/MyProject/ProjectAPI/LibraryClass.Repositories/obj/",
+        "outputPath": "/Users/tatiana/Desktop/MKTFY/MainProject/LibraryClass.Repositories/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/tatiana/.nuget/NuGet/NuGet.Config"
@@ -27,8 +27,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/tatiana/Desktop/MyProject/ProjectAPI/LibraryClass/LibraryClass.Models.csproj": {
-                "projectPath": "/Users/tatiana/Desktop/MyProject/ProjectAPI/LibraryClass/LibraryClass.Models.csproj"
+              "/Users/tatiana/Desktop/MKTFY/MainProject/LibraryClass/LibraryClass.Models.csproj": {
+                "projectPath": "/Users/tatiana/Desktop/MKTFY/MainProject/LibraryClass/LibraryClass.Models.csproj"
               }
             }
           }
@@ -58,18 +58,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/tatiana/Desktop/MyProject/ProjectAPI/LibraryClass.Services/LibraryClass.Services.csproj": {
+    "/Users/tatiana/Desktop/MKTFY/MainProject/LibraryClass.Services/LibraryClass.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/tatiana/Desktop/MyProject/ProjectAPI/LibraryClass.Services/LibraryClass.Services.csproj",
+        "projectUniqueName": "/Users/tatiana/Desktop/MKTFY/MainProject/LibraryClass.Services/LibraryClass.Services.csproj",
         "projectName": "LibraryClass.Services",
-        "projectPath": "/Users/tatiana/Desktop/MyProject/ProjectAPI/LibraryClass.Services/LibraryClass.Services.csproj",
+        "projectPath": "/Users/tatiana/Desktop/MKTFY/MainProject/LibraryClass.Services/LibraryClass.Services.csproj",
         "packagesPath": "/Users/tatiana/.nuget/packages/",
-        "outputPath": "/Users/tatiana/Desktop/MyProject/ProjectAPI/LibraryClass.Services/obj/",
+        "outputPath": "/Users/tatiana/Desktop/MKTFY/MainProject/LibraryClass.Services/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/tatiana/.nuget/NuGet/NuGet.Config"
@@ -85,11 +85,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/tatiana/Desktop/MyProject/ProjectAPI/LibraryClass.Repositories/LibraryClass.Repositories.csproj": {
-                "projectPath": "/Users/tatiana/Desktop/MyProject/ProjectAPI/LibraryClass.Repositories/LibraryClass.Repositories.csproj"
+              "/Users/tatiana/Desktop/MKTFY/MainProject/LibraryClass.Repositories/LibraryClass.Repositories.csproj": {
+                "projectPath": "/Users/tatiana/Desktop/MKTFY/MainProject/LibraryClass.Repositories/LibraryClass.Repositories.csproj"
               },
-              "/Users/tatiana/Desktop/MyProject/ProjectAPI/LibraryClass/LibraryClass.Models.csproj": {
-                "projectPath": "/Users/tatiana/Desktop/MyProject/ProjectAPI/LibraryClass/LibraryClass.Models.csproj"
+              "/Users/tatiana/Desktop/MKTFY/MainProject/LibraryClass/LibraryClass.Models.csproj": {
+                "projectPath": "/Users/tatiana/Desktop/MKTFY/MainProject/LibraryClass/LibraryClass.Models.csproj"
               }
             }
           }
@@ -119,18 +119,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/tatiana/Desktop/MyProject/ProjectAPI/LibraryClass/LibraryClass.Models.csproj": {
+    "/Users/tatiana/Desktop/MKTFY/MainProject/LibraryClass/LibraryClass.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/tatiana/Desktop/MyProject/ProjectAPI/LibraryClass/LibraryClass.Models.csproj",
+        "projectUniqueName": "/Users/tatiana/Desktop/MKTFY/MainProject/LibraryClass/LibraryClass.Models.csproj",
         "projectName": "LibraryClass",
-        "projectPath": "/Users/tatiana/Desktop/MyProject/ProjectAPI/LibraryClass/LibraryClass.Models.csproj",
+        "projectPath": "/Users/tatiana/Desktop/MKTFY/MainProject/LibraryClass/LibraryClass.Models.csproj",
         "packagesPath": "/Users/tatiana/.nuget/packages/",
-        "outputPath": "/Users/tatiana/Desktop/MyProject/ProjectAPI/LibraryClass/obj/",
+        "outputPath": "/Users/tatiana/Desktop/MKTFY/MainProject/LibraryClass/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/tatiana/.nuget/NuGet/NuGet.Config"
@@ -157,6 +157,22 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -173,18 +189,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/tatiana/Desktop/MyProject/ProjectAPI/mainproject.api/MainProject.API.csproj": {
+    "/Users/tatiana/Desktop/MKTFY/MainProject/MainProject.API/MainProject.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/tatiana/Desktop/MyProject/ProjectAPI/mainproject.api/MainProject.API.csproj",
+        "projectUniqueName": "/Users/tatiana/Desktop/MKTFY/MainProject/MainProject.API/MainProject.API.csproj",
         "projectName": "MainProject.API",
-        "projectPath": "/Users/tatiana/Desktop/MyProject/ProjectAPI/mainproject.api/MainProject.API.csproj",
+        "projectPath": "/Users/tatiana/Desktop/MKTFY/MainProject/MainProject.API/MainProject.API.csproj",
         "packagesPath": "/Users/tatiana/.nuget/packages/",
-        "outputPath": "/Users/tatiana/Desktop/MyProject/ProjectAPI/mainproject.api/obj/",
+        "outputPath": "/Users/tatiana/Desktop/MKTFY/MainProject/MainProject.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/tatiana/.nuget/NuGet/NuGet.Config"
@@ -200,11 +216,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/tatiana/Desktop/MyProject/ProjectAPI/LibraryClass.Services/LibraryClass.Services.csproj": {
-                "projectPath": "/Users/tatiana/Desktop/MyProject/ProjectAPI/LibraryClass.Services/LibraryClass.Services.csproj"
+              "/Users/tatiana/Desktop/MKTFY/MainProject/LibraryClass.Services/LibraryClass.Services.csproj": {
+                "projectPath": "/Users/tatiana/Desktop/MKTFY/MainProject/LibraryClass.Services/LibraryClass.Services.csproj"
               },
-              "/Users/tatiana/Desktop/MyProject/ProjectAPI/LibraryClass/LibraryClass.Models.csproj": {
-                "projectPath": "/Users/tatiana/Desktop/MyProject/ProjectAPI/LibraryClass/LibraryClass.Models.csproj"
+              "/Users/tatiana/Desktop/MKTFY/MainProject/LibraryClass/LibraryClass.Models.csproj": {
+                "projectPath": "/Users/tatiana/Desktop/MKTFY/MainProject/LibraryClass/LibraryClass.Models.csproj"
               }
             }
           }
@@ -219,9 +235,23 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
@@ -243,7 +273,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
         }
       }
     }

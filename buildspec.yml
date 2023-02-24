@@ -1,0 +1,23 @@
+﻿version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - echo Logging in to Amazon ECR...
+      - aws ecr get-login-password --region ca-central-1 | docker login --username AWS --password-stdin 165782756239.dkr.ecr.ca-central-1.amazonaws.com
+  build:
+    commands:
+      - echo Build started on `date`
+      - echo Building the Docker image...
+      - cd MainProject
+      - docker build -t marketforyou:api -f ./MarketForYou.API/Dockerfile .
+      - docker tag marketforyou:api 165782756239.dkr.ecr.ca-central-1.amazonaws.com/marketforyou:api      
+  post_build:
+    commands:
+      - echo Build completed on `date`
+      - echo Pushing the Docker image...
+      - docker push 165782756239.dkr.ecr.ca-central-1.amazonaws.com/marketforyou:api
+      - cp Dockerrun.aws.json ../Dockerrun.aws.json
+artifacts:
+  files: Dockerrun.aws.json
+

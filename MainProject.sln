@@ -11,6 +11,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryClass.Services", "Li
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryClass.Repositories", "LibraryClass.Repositories\LibraryClass.Repositories.csproj", "{5720659A-0879-4A78-9EDF-4F2179E26187}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{53AEF49A-78AC-4CF2-885E-3FA247638AE3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ECC21848-D8C5-4115-BD82-9C6D762B3AE7}"
+	ProjectSection(SolutionItems) = preProject
+		buildspec.yml = buildspec.yml
+		Dockerrun.aws.json = Dockerrun.aws.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +41,10 @@ Global
 		{5720659A-0879-4A78-9EDF-4F2179E26187}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5720659A-0879-4A78-9EDF-4F2179E26187}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5720659A-0879-4A78-9EDF-4F2179E26187}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53AEF49A-78AC-4CF2-885E-3FA247638AE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53AEF49A-78AC-4CF2-885E-3FA247638AE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53AEF49A-78AC-4CF2-885E-3FA247638AE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53AEF49A-78AC-4CF2-885E-3FA247638AE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
