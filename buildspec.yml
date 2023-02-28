@@ -10,7 +10,7 @@ phases:
       - echo Build started on `date`
       - echo Building the Docker image...
       - cd MainProject
-      - docker build -t marketforyou:api -f ./MarketForYou.API/Dockerfile .
+      - docker build -t marketforyou:api -f ./Project.API/Dockerfile .
       - docker tag marketforyou:api 165782756239.dkr.ecr.ca-central-1.amazonaws.com/marketforyou:api      
   post_build:
     commands:

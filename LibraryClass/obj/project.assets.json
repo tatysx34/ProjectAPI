@@ -1215,11 +1215,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/tatiana/Desktop/MKTFY/MainProject/LibraryClass/LibraryClass.Models.csproj",
+      "projectUniqueName": "/Users/tatiana/Desktop/ProjectAPI/LibraryClass/LibraryClass.Models.csproj",
       "projectName": "LibraryClass",
-      "projectPath": "/Users/tatiana/Desktop/MKTFY/MainProject/LibraryClass/LibraryClass.Models.csproj",
+      "projectPath": "/Users/tatiana/Desktop/ProjectAPI/LibraryClass/LibraryClass.Models.csproj",
       "packagesPath": "/Users/tatiana/.nuget/packages/",
-      "outputPath": "/Users/tatiana/Desktop/MKTFY/MainProject/LibraryClass/obj/",
+      "outputPath": "/Users/tatiana/Desktop/ProjectAPI/LibraryClass/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/tatiana/.nuget/NuGet/NuGet.Config"

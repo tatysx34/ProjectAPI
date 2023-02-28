@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XFp/i0NbEQPoVJF/4vVsuO9uLPmCyytCV51s5wQabWncXIAAG8tf1mgV7z0xOUsqn+dCRmZCx9xs6ZOyZclc5g==",
+  "dgSpecHash": "wNBDR5dKxFMU5l/64gluMi5NZAPk9VCnSTXMoZh+Zq+gEc8LzEXkKWzZ2Ei7GL9wPT5tBij70GXHOZt2bW2kNA==",
   "success": true,
-  "projectFilePath": "/Users/tatiana/Desktop/MKTFY/MainProject/LibraryClass.Repositories/LibraryClass.Repositories.csproj",
+  "projectFilePath": "/Users/tatiana/Desktop/ProjectAPI/LibraryClass.Repositories/LibraryClass.Repositories.csproj",
   "expectedPackageFiles": [
     "/Users/tatiana/.nuget/packages/microsoft.entityframeworkcore/6.0.12/microsoft.entityframeworkcore.6.0.12.nupkg.sha512",
     "/Users/tatiana/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.12/microsoft.entityframeworkcore.abstractions.6.0.12.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UFXItaclJESkbIyEMurSuTDByWf9rJ6tHkn3+mdJofPQhfa9SZWlyFamKfR+T8+tII9+Ny0U7qEKp0rYRhiMIw==",
+  "dgSpecHash": "PMqJ8NVa2N5kPHxDzFilCPb58zeZQ7frrPxom08EgmHLfIM55ZOMraNPT0KaJuB/zww8tha+l3rzjovc9F5HAA==",
   "success": true,
-  "projectFilePath": "/Users/tatiana/Desktop/MKTFY/MainProject/MainProject.API/MainProject.API.csproj",
+  "projectFilePath": "/Users/tatiana/Desktop/ProjectAPI/MainProject.API/MainProject.API.csproj",
   "expectedPackageFiles": [
     "/Users/tatiana/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/tatiana/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/6.0.13/microsoft.aspnetcore.authentication.jwtbearer.6.0.13.nupkg.sha512",

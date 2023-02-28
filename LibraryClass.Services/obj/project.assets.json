@@ -1185,11 +1185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/tatiana/Desktop/MKTFY/MainProject/LibraryClass.Services/LibraryClass.Services.csproj",
+      "projectUniqueName": "/Users/tatiana/Desktop/ProjectAPI/LibraryClass.Services/LibraryClass.Services.csproj",
       "projectName": "LibraryClass.Services",
-      "projectPath": "/Users/tatiana/Desktop/MKTFY/MainProject/LibraryClass.Services/LibraryClass.Services.csproj",
+      "projectPath": "/Users/tatiana/Desktop/ProjectAPI/LibraryClass.Services/LibraryClass.Services.csproj",
       "packagesPath": "/Users/tatiana/.nuget/packages/",
-      "outputPath": "/Users/tatiana/Desktop/MKTFY/MainProject/LibraryClass.Services/obj/",
+      "outputPath": "/Users/tatiana/Desktop/ProjectAPI/LibraryClass.Services/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/tatiana/.nuget/NuGet/NuGet.Config"
@@ -1205,11 +1205,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/tatiana/Desktop/MKTFY/MainProject/LibraryClass.Repositories/LibraryClass.Repositories.csproj": {
-              "projectPath": "/Users/tatiana/Desktop/MKTFY/MainProject/LibraryClass.Repositories/LibraryClass.Repositories.csproj"
+            "/Users/tatiana/Desktop/ProjectAPI/LibraryClass.Repositories/LibraryClass.Repositories.csproj": {
+              "projectPath": "/Users/tatiana/Desktop/ProjectAPI/LibraryClass.Repositories/LibraryClass.Repositories.csproj"
             },
-            "/Users/tatiana/Desktop/MKTFY/MainProject/LibraryClass/LibraryClass.Models.csproj": {
-              "projectPath": "/Users/tatiana/Desktop/MKTFY/MainProject/LibraryClass/LibraryClass.Models.csproj"
+            "/Users/tatiana/Desktop/ProjectAPI/LibraryClass/LibraryClass.Models.csproj": {
+              "projectPath": "/Users/tatiana/Desktop/ProjectAPI/LibraryClass/LibraryClass.Models.csproj"
             }
           }
         }
