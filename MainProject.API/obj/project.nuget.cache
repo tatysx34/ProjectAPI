@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BcUZgNP9TO46tw+wRLswIYQ0VpVuORrp9u9v83kIOz6o64xz3a1RMJ5r8lxw4jiakTGW4L2yFhN4934MLL4TUA==",
+  "dgSpecHash": "0Twi8XqcMc1eNlHkL8FsULrKMiESRjNF2j9rn4K1xI1yG6Lj22jQvsFlGM/1uhGxb32cr269hRAMemYwNBClTQ==",
   "success": true,
-  "projectFilePath": "/Users/tatiana/Desktop/ProjectAPI/mainproject.api/MainProject.API.csproj",
+  "projectFilePath": "/Users/tatiana/Desktop/ProjectAPI/MainProject.API/MainProject.API.csproj",
   "expectedPackageFiles": [
     "/Users/tatiana/.nuget/packages/awssdk.core/3.7.105.10/awssdk.core.3.7.105.10.nupkg.sha512",
     "/Users/tatiana/.nuget/packages/awssdk.s3/3.7.103.17/awssdk.s3.3.7.103.17.nupkg.sha512",

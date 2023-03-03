@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "/Users/tatiana/Desktop/ProjectAPI/mainproject.api/MainProject.API.csproj": {}
+    "/Users/tatiana/Desktop/ProjectAPI/MainProject.API/MainProject.API.csproj": {}
   },
   "projects": {
     "/Users/tatiana/Desktop/ProjectAPI/LibraryClass.Repositories/LibraryClass.Repositories.csproj": {
@@ -207,14 +207,14 @@
         }
       }
     },
-    "/Users/tatiana/Desktop/ProjectAPI/mainproject.api/MainProject.API.csproj": {
+    "/Users/tatiana/Desktop/ProjectAPI/MainProject.API/MainProject.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/tatiana/Desktop/ProjectAPI/mainproject.api/MainProject.API.csproj",
+        "projectUniqueName": "/Users/tatiana/Desktop/ProjectAPI/MainProject.API/MainProject.API.csproj",
         "projectName": "MainProject.API",
-        "projectPath": "/Users/tatiana/Desktop/ProjectAPI/mainproject.api/MainProject.API.csproj",
+        "projectPath": "/Users/tatiana/Desktop/ProjectAPI/MainProject.API/MainProject.API.csproj",
         "packagesPath": "/Users/tatiana/.nuget/packages/",
-        "outputPath": "/Users/tatiana/Desktop/ProjectAPI/mainproject.api/obj/",
+        "outputPath": "/Users/tatiana/Desktop/ProjectAPI/MainProject.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/tatiana/.nuget/NuGet/NuGet.Config"
