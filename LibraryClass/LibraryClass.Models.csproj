@@ -19,11 +19,13 @@
     <None Remove="Microsoft.EntityFrameworkCore.Design" />
     <None Remove="ViewModels\User\" />
     <None Remove="Swashbuckle.AspNetCore" />
+    <None Remove="ViewModels\Upload\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ViewModels\" />
     <Folder Include="Entities\" />
     <Folder Include="ViewModels\User\" />
+    <Folder Include="ViewModels\Upload\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.8" />

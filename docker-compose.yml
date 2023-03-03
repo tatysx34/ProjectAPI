@@ -12,6 +12,10 @@ services:
       - Auth0__Domain=https://dev-imv7dvp8n7sd2xfz.us.auth0.com/
       - Auth0__Audience=http//marketforyou.com
       - Auth0__TokenRedirectUrl=http://localhost:3587
+      - AWS__ImageBucket=mymarketforyou-dev
+      - AWS__Region=ca-central-1
+    volumes:
+      - .aws:/root/.aws
     ports:
       - "3587:80" 
       - "3588:443"

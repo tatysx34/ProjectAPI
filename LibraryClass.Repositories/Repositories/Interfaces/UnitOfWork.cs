@@ -2,7 +2,7 @@
 using LibraryClass.Repositories.Repositories;
 using LibraryClass.Repositories.Repositories.Interfaces;
 using LibraryClass.Models.Entities;
-
+using LibraryClass.Services.Services.Interfaces;
 
 namespace LibraryClass.Repositories
 {
@@ -11,7 +11,8 @@ namespace LibraryClass.Repositories
         private readonly ApplicationDbContext _context;
 
         private IProductRepository? _products { get; set; } //interface 
-        private IUserRepository? _users { get; set; }  
+        private IUserRepository? _users { get; set; }
+        private IUploadRepository _uploads { get; set; }
 
 
         public IProductRepository Products //mayuscula
@@ -40,7 +41,21 @@ namespace LibraryClass.Repositories
                 _users = value;
             }
         }
-    
+        public IUploadRepository Uploads
+        {
+            get
+            {
+                if (_uploads == null)
+                    _uploads = new UploadRepository(_context);
+                return _uploads;
+            }
+            private set
+            {
+                _uploads = value;
+            }
+        }
+
+        //  public IUploadRepository Uploads => throw new NotImplementedException();
 
         public UnitOfWork(ApplicationDbContext context)
         {

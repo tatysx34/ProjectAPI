@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "/Users/tatiana/Desktop/ProjectAPI/MainProject.API/MainProject.API.csproj": {}
+    "/Users/tatiana/Desktop/ProjectAPI/mainproject.api/MainProject.API.csproj": {}
   },
   "projects": {
     "/Users/tatiana/Desktop/ProjectAPI/LibraryClass.Repositories/LibraryClass.Repositories.csproj": {
@@ -103,6 +103,20 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[3.7.103.17, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -193,14 +207,14 @@
         }
       }
     },
-    "/Users/tatiana/Desktop/ProjectAPI/MainProject.API/MainProject.API.csproj": {
+    "/Users/tatiana/Desktop/ProjectAPI/mainproject.api/MainProject.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/tatiana/Desktop/ProjectAPI/MainProject.API/MainProject.API.csproj",
+        "projectUniqueName": "/Users/tatiana/Desktop/ProjectAPI/mainproject.api/MainProject.API.csproj",
         "projectName": "MainProject.API",
-        "projectPath": "/Users/tatiana/Desktop/ProjectAPI/MainProject.API/MainProject.API.csproj",
+        "projectPath": "/Users/tatiana/Desktop/ProjectAPI/mainproject.api/MainProject.API.csproj",
         "packagesPath": "/Users/tatiana/.nuget/packages/",
-        "outputPath": "/Users/tatiana/Desktop/ProjectAPI/MainProject.API/obj/",
+        "outputPath": "/Users/tatiana/Desktop/ProjectAPI/mainproject.api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/tatiana/.nuget/NuGet/NuGet.Config"

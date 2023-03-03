@@ -14,5 +14,7 @@ namespace LibraryClass.Repositories
         public DbSet<Product> Products => Set<Product>();//not sure if the entityEndpoint in entities
 
         public DbSet<User> Users => Set<User>();
+
+        public DbSet<Upload> Uploads=> Set<Upload>();
     }
 }

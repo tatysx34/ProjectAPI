@@ -71,6 +71,7 @@ void ConfigureServices(WebApplicationBuilder builder)
     builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();  //or addsingleton
     builder.Services.AddScoped<IProductService, ProductService>();//services
     builder.Services.AddScoped<IUserService, UserService>();
+    builder.Services.AddScoped<IUploadService, UploadService>();
 }
 
 // Setup our HTTP request/response pipeline
