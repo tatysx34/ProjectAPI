@@ -19,6 +19,15 @@ namespace LibraryClass.Models.ViewModels.User
 
         [Required]
         public string Phone { get; set; } = String.Empty;
+
+        [Required]
+        public string StreetAddress { get; set; } = String.Empty;
+
+        [Required]
+        public string City { get; set; } = String.Empty;
+
+        [Required]
+        public string Province { get; set; } = String.Empty;
     }
 }
 

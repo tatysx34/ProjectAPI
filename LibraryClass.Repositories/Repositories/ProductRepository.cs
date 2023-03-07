@@ -2,6 +2,7 @@
 using LibraryClass.Models.Entities;
 using LibraryClass.Repositories.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using LibraryClass.Shared.Exceptions;
 
 namespace LibraryClass.Repositories.Repositories
 {
@@ -26,11 +27,12 @@ namespace LibraryClass.Repositories.Repositories
 
         // Get a single existing game by Id
         public async Task<Product> GetById(Guid id)
-        {//
+        {
             // Get the entity
-            var result = await _context.Products.FirstAsync(item => item.Id == id);  //mayuscula
+            var result = await _context.Products.FirstOrDefaultAsync(i => i.Id == id);
+            if (result == null)
+                throw new NotFoundException("The requested game was not found");
 
-            // Return the retrieved entity
             return result;
         }
 

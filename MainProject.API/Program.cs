@@ -4,6 +4,7 @@ using LibraryClass.Repositories;
 using LibraryClass.Repositories.Repositories;
 using LibraryClass.Services.Services;
 using LibraryClass.Services.Services.Interfaces;
+using MainProject.API.MiddleWare;
 using MainProject.API.Swashbukle;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
@@ -100,6 +101,8 @@ void ConfigurePipeline(WebApplication app)
     app.UseAuthorization();
 
     app.MapControllers();
+
+    app.UseMiddleware<GlobalExceptionHandler>();
 }
 
 //to excecute the migrations to avout error relation 95

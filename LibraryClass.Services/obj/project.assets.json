@@ -499,13 +499,24 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "LibraryClass": "1.0.0"
+          "LibraryClass": "1.0.0",
+          "LibraryClass.Shared": "1.0.0"
         },
         "compile": {
           "bin/placeholder/LibraryClass.Repositories.dll": {}
         },
         "runtime": {
           "bin/placeholder/LibraryClass.Repositories.dll": {}
+        }
+      },
+      "LibraryClass.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/LibraryClass.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibraryClass.Shared.dll": {}
         }
       }
     }
@@ -1386,6 +1397,11 @@
       "type": "project",
       "path": "../LibraryClass.Repositories/LibraryClass.Repositories.csproj",
       "msbuildProject": "../LibraryClass.Repositories/LibraryClass.Repositories.csproj"
+    },
+    "LibraryClass.Shared/1.0.0": {
+      "type": "project",
+      "path": "../LibraryClass.Shared/LibraryClass.Shared.csproj",
+      "msbuildProject": "../LibraryClass.Shared/LibraryClass.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {

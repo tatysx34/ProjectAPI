@@ -413,6 +413,16 @@
         "runtime": {
           "bin/placeholder/LibraryClass.dll": {}
         }
+      },
+      "LibraryClass.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/LibraryClass.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibraryClass.Shared.dll": {}
+        }
       }
     }
   },
@@ -1153,11 +1163,17 @@
       "type": "project",
       "path": "../LibraryClass/LibraryClass.Models.csproj",
       "msbuildProject": "../LibraryClass/LibraryClass.Models.csproj"
+    },
+    "LibraryClass.Shared/1.0.0": {
+      "type": "project",
+      "path": "../LibraryClass.Shared/LibraryClass.Shared.csproj",
+      "msbuildProject": "../LibraryClass.Shared/LibraryClass.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "LibraryClass >= 1.0.0"
+      "LibraryClass >= 1.0.0",
+      "LibraryClass.Shared >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1186,6 +1202,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "/Users/tatiana/Desktop/ProjectAPI/LibraryClass.Shared/LibraryClass.Shared.csproj": {
+              "projectPath": "/Users/tatiana/Desktop/ProjectAPI/LibraryClass.Shared/LibraryClass.Shared.csproj"
+            },
             "/Users/tatiana/Desktop/ProjectAPI/LibraryClass/LibraryClass.Models.csproj": {
               "projectPath": "/Users/tatiana/Desktop/ProjectAPI/LibraryClass/LibraryClass.Models.csproj"
             }

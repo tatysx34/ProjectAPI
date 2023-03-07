@@ -37,12 +37,14 @@
     <None Remove="Microsoft.AspNetCore.Authentication.JwtBearer" />
     <None Remove="Helpers\" />
     <None Remove="Swashbukle\" />
+    <None Remove="MiddleWare\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
     <Folder Include="wwwroot\" />
     <Folder Include="Helpers\" />
     <Folder Include="Swashbukle\" />
+    <Folder Include="MiddleWare\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\" />

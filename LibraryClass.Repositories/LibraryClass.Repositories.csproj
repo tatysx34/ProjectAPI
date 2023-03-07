@@ -16,5 +16,6 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LibraryClass\LibraryClass.Models.csproj" />
+    <ProjectReference Include="..\LibraryClass.Shared\LibraryClass.Shared.csproj" />
   </ItemGroup>
 </Project>

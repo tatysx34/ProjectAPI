@@ -1,4 +1,6 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
+
 namespace LibraryClass.Models.ViewModels.User
 {
     public class UserVM
@@ -21,6 +23,12 @@ namespace LibraryClass.Models.ViewModels.User
         public string Email { get; set; }
 
         public string Phone { get; set; }
+
+        public string StreetAddress { get; set; } 
+
+        public string City { get; set; }
+
+        public string Province { get; set; } 
     }
 }
 

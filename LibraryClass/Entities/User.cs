@@ -16,7 +16,10 @@ namespace LibraryClass.Models.Entities
                 LastName = src.LastName;
                 Email = src.Email;
                 Phone = src.Phone;
-            }
+                StreetAddress = src.StreetAddress;
+                City = src.City;
+                Province = src.Province;
+        }
 
             public User(UserUpdateVM src)
             {
@@ -24,7 +27,10 @@ namespace LibraryClass.Models.Entities
                 FirstName = src.FirstName;
                 LastName = src.LastName;
                 Phone = src.Phone;
-            }
+                StreetAddress = src.StreetAddress;
+                City = src.City;
+                Province = src.Province;
+        }
 
             [Required]
             [Key]
@@ -42,9 +48,20 @@ namespace LibraryClass.Models.Entities
             [Required]
             public string Phone { get; set; } = String.Empty;
 
+           [Required]
+           public string StreetAddress { get; set; } = String.Empty;
 
-            //Game user relationships
-            public ICollection<Product> Products { get; set; } = new List<Product>(); //a user can have many products
+           [Required]
+           public string City { get; set; } = String.Empty;
+
+           [Required]
+           public string Province { get; set; } = String.Empty;
+
+        //Country
+
+
+        //product user relationships
+        public ICollection<Product> Products { get; set; } = new List<Product>(); //a user can have many products
 
         }
     }
