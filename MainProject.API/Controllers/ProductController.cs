@@ -19,11 +19,11 @@ namespace MainProject.API.Controllers
         [Authorize]
         [ApiController]
 
-        public class HomeController : ControllerBase //I should call product controller
+        public class ProductController : ControllerBase //I should call product controller
         {
             private readonly IProductService _productService; //service 
 
-            public HomeController(IProductService productService)
+            public ProductController(IProductService productService)
             {
             _productService = productService;
             }
@@ -86,7 +86,7 @@ namespace MainProject.API.Controllers
             // Update Game entity from the service
             var result = await _productService.Update(data);
 
-            // Return a 200 response with the GameVM
+            // Return a 200 response with the ProductVM
             return Ok(result);
 
         }

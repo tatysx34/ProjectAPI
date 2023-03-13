@@ -43,7 +43,7 @@ void ConfigureServices(WebApplicationBuilder builder)
             options.Audience = builder.Configuration.GetSection("Auth0").GetValue<string>("Audience");
             options.TokenValidationParameters = new TokenValidationParameters
             {
-                RoleClaimType = "http//schema.marketforyou.com/roles"  //Iam not sure if this is the correct one?
+                RoleClaimType = "http//schema.marketforyou.com/roles"  
             };
             //
         });
