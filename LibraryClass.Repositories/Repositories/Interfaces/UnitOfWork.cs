@@ -13,6 +13,7 @@ namespace LibraryClass.Repositories
         private IProductRepository? _products { get; set; } //interface 
         private IUserRepository? _users { get; set; }
         private IUploadRepository _uploads { get; set; }
+       // private INotificationRepository notifications { get; set; }
 
 
         public IProductRepository Products //mayuscula

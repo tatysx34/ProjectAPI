@@ -14,22 +14,25 @@ using Microsoft.EntityFrameworkCore;
 
 namespace MainProject.API.Controllers
 {
-   
-        [Route("api/[controller]")]
-        [Authorize]
-        [ApiController]
 
-        public class ProductController : ControllerBase //I should call product controller
+    [Route("api/[controller]")]
+    [Authorize]
+    [ApiController]
+
+    public class ProductController : ControllerBase //I should call product controller
+    {
+        private readonly IProductService _productService; //service 
+
+        public ProductController(IProductService productService)
         {
-            private readonly IProductService _productService; //service 
-
-            public ProductController(IProductService productService)
-            {
             _productService = productService;
-            }
+        }
 
-        // Create a endpoint
-        // Create a new game
+        /// <summary>
+        /// Create a product
+        /// </summary>
+        /// <param name="data"></param>
+        /// <returns></returns>
         [HttpPost]
         public async Task<ActionResult<ProjectVM>> Create([FromBody] ProjectAddVM data)
         {

@@ -19,8 +19,8 @@ namespace MainProject.API.Controllers
             _userService = userService;
         }
 
-        // Create a new user
-        [HttpPost]
+        // Create/register a new user
+        [HttpPost("register")]
         public async Task<ActionResult<UserVM>> Create([FromBody] UserAddVM data)
         {
             try

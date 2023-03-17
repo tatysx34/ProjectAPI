@@ -25,12 +25,14 @@
     <None Remove="ViewModels\User\" />
     <None Remove="Swashbuckle.AspNetCore" />
     <None Remove="ViewModels\Upload\" />
+    <None Remove="ViewModels\Notifications\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ViewModels\" />
     <Folder Include="Entities\" />
     <Folder Include="ViewModels\User\" />
     <Folder Include="ViewModels\Upload\" />
+    <Folder Include="ViewModels\Notifications\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.8" />

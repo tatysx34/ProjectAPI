@@ -13,7 +13,12 @@ using Microsoft.OpenApi.Models;
 
 void ConfigureHost(ConfigureHostBuilder host)
 {
-}
+ /*
+        host.ConfigureAppConfiguration((builder) => {
+            builder.AddSystemsManager("/" + Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") + "/");
+        }); */
+    }
+
 
 // Setup services like database providers, etc.
 void ConfigureServices(WebApplicationBuilder builder)
@@ -66,7 +71,12 @@ void ConfigureServices(WebApplicationBuilder builder)
         });
         options.OperationFilter<AuthHeaderOperationFilter>();
     });
+    //services cors
 
+    builder.Services.AddCors(p => p.AddPolicy("corsapp", builder =>
+    {
+        builder.WithOrigins("*").AllowAnyMethod().AllowAnyHeader();
+    }));
 
     // Setup dependency injection
     builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();  //or addsingleton
@@ -74,6 +84,7 @@ void ConfigureServices(WebApplicationBuilder builder)
     builder.Services.AddScoped<IUserService, UserService>();
     builder.Services.AddScoped<IUploadService, UploadService>();
 }
+
 
 // Setup our HTTP request/response pipeline
 void ConfigurePipeline(WebApplication app)

@@ -63,6 +63,8 @@ namespace LibraryClass.Models.Entities
         //product user relationships
         public ICollection<Product> Products { get; set; } = new List<Product>(); //a user can have many products
 
-        }
+     //   public ICollection<Product> Products { get; set; } = new List<Product>(); //a user can have many product
+
+    }
     }
 

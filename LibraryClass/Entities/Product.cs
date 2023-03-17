@@ -12,7 +12,7 @@ namespace LibraryClass.Models.Entities
         {
         }
         //constuctor use to create a new game from the ProjectAddVM model
-        public Product(ProjectAddVM src, String userId)
+        public Product(ProjectAddVM src, string userId)
         {
              UserId = userId; // added relationships
 
@@ -51,19 +51,10 @@ namespace LibraryClass.Models.Entities
 
         // relationships
         [Required]
-        public string UserId { get; set; } = String.Empty;
+        public string UserId { get; set; } = string.Empty;
 
-        public User? User { get; set; } 
-
-
-
-
-
-
-
-
-
-
+        public User? User { get; set; }
+      //  public string Notification { get; internal set; }
     }
 }
 
