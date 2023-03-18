@@ -5,14 +5,14 @@ using System.Text;
 using LibraryClass.Models.Entities;
 namespace LibraryClass.Models.ViewModels
 {
-    public class ProjectVM
+    public class ProductVM
 
     {
         // Default constructor to allow creation of an empty ListingVM
-        public ProjectVM() { }
+        public ProductVM() { }
 
         // Constructor for populating a new ListingVM from a Listing entity
-        public ProjectVM(Product src) 
+        public ProductVM(Product src) 
         {
             Id = src.Id;
             Title = src.Title;

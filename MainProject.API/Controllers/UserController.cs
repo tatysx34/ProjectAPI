@@ -19,7 +19,11 @@ namespace MainProject.API.Controllers
             _userService = userService;
         }
 
-        // Create/register a new user
+        /// <summary>
+        /// Create/register a new user
+        /// </summary>
+        /// <param name="data"></param>
+        /// <returns></returns>
         [HttpPost("register")]
         public async Task<ActionResult<UserVM>> Create([FromBody] UserAddVM data)
         {
@@ -41,7 +45,11 @@ namespace MainProject.API.Controllers
             }
         }
 
-        // Get a specific user by Id
+        /// <summary>
+        /// Get a specific user by Id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet("{id}")]
         public async Task<ActionResult<UserVM>> Get([FromRoute] string id)
         {
@@ -59,7 +67,11 @@ namespace MainProject.API.Controllers
             }
         }
 
-        // Update a user
+        /// <summary>
+        /// Update a user
+        /// </summary>
+        /// <param name="data"></param>
+        /// <returns></returns>
         [HttpPut]
         public async Task<ActionResult<UserVM>> Update([FromBody] UserUpdateVM data)
         {

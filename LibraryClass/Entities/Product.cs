@@ -12,7 +12,7 @@ namespace LibraryClass.Models.Entities
         {
         }
         //constuctor use to create a new game from the ProjectAddVM model
-        public Product(ProjectAddVM src, string userId)
+        public Product(ProductAddVM src, string userId)
         {
              UserId = userId; // added relationships
 

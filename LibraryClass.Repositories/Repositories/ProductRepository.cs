@@ -25,8 +25,8 @@ namespace LibraryClass.Repositories.Repositories
             _context.Add(entity);
         }
 
-        // Get a single existing game by Id
-        public async Task<Product> GetById(Guid id)
+        // Get a single existing game by Id// pull out the database
+        public async Task<Product> GetById(Guid id)  //get by search
         {
             // Get the entity
             var result = await _context.Products.FirstOrDefaultAsync(i => i.Id == id);
@@ -58,6 +58,18 @@ namespace LibraryClass.Repositories.Repositories
         {
             // Delete the entity
             _context.Remove(entity);
+        }
+
+        // search repository
+        // Get a single existing game by Id// pull out the database
+        public async Task<Product> GetBySearch(string searchItem)  //get by search
+        {
+            // Get the entity
+            var result = await _context.Products.FirstOrDefaultAsync(i => i.Title.Contains(searchItem));
+            if (result == null)
+                throw new NotFoundException("I am sorry we could not find any item with that name");
+
+            return result;
         }
     }
 }

@@ -34,7 +34,7 @@ namespace MainProject.API.Controllers
         /// <param name="data"></param>
         /// <returns></returns>
         [HttpPost]
-        public async Task<ActionResult<ProjectVM>> Create([FromBody] ProjectAddVM data)
+        public async Task<ActionResult<ProductVM>> Create([FromBody] ProductAddVM data)
         {
 
             // Get the user ID
@@ -58,7 +58,7 @@ namespace MainProject.API.Controllers
         /// <response code="401">Not Currently Logged In</response>
         /// <response code="500">Internal Server Problem. E.g. connectivity, database, etc.</response>
         [HttpGet]
-        public async Task<ActionResult<List<ProjectVM>>> GetAll()
+        public async Task<ActionResult<List<ProductVM>>> GetAll()
         {
 
             // Get the Game entities from the service
@@ -69,24 +69,32 @@ namespace MainProject.API.Controllers
 
         }
 
-        // Get a specific product by Id
+        /// <summary>
+        /// Get a specific product by Id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet("{id}")]
-        public async Task<ActionResult<ProjectVM>> Get([FromRoute] Guid id)
+        public async Task<ActionResult<ProductVM>> Get([FromRoute] Guid id)
         {
-            // Get the requested Game entity from the service
+            // Get the requested product entity from the service
             var result = await _productService.GetById(id);
 
-            // Return a 200 response with the GameVM
+            
             return Ok(result);
 
         }
 
-        // Update a product
+        /// <summary>
+        ///  Update a product
+        /// </summary>
+        /// <param name="data"></param>
+        /// <returns></returns>
         [HttpPut]
-        public async Task<ActionResult<ProjectVM>> Update([FromBody] ProjectUpdateVM data)
+        public async Task<ActionResult<ProductVM>> Update([FromBody] ProductUpdateVM data)
         {
 
-            // Update Game entity from the service
+            
             var result = await _productService.Update(data);
 
             // Return a 200 response with the ProductVM
@@ -94,7 +102,11 @@ namespace MainProject.API.Controllers
 
         }
 
-        // Delete a product
+        /// <summary>
+        /// Delete a product
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpDelete("{id}")]
         public async Task<ActionResult> Delete([FromRoute] Guid id)
         {
@@ -103,6 +115,22 @@ namespace MainProject.API.Controllers
 
             // Return a 200 response
             return Ok();
+
+        }
+
+        /// <summary>
+        /// search for a product using the title field
+        /// </summary>
+        /// <param name="searchItem"></param>
+        /// <returns></returns>
+        [HttpGet("search/{searchItem}")] //TODO ?question  
+        public async Task<ActionResult<ProductVM>> Search([FromRoute] string searchItem)
+        {
+            
+            var result = await _productService.GetBySearch(searchItem);
+
+            // 
+            return Ok(result);
 
         }
     }

@@ -14,7 +14,7 @@ using Microsoft.OpenApi.Models;
 void ConfigureHost(ConfigureHostBuilder host)
 {
  /*
-        host.ConfigureAppConfiguration((builder) => {
+        host.ConfigureAppConfiguration((uilder) => {
             builder.AddSystemsManager("/" + Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") + "/");
         }); */
     }
@@ -72,11 +72,12 @@ void ConfigureServices(WebApplicationBuilder builder)
         options.OperationFilter<AuthHeaderOperationFilter>();
     });
     //services cors
+    /*
 
     builder.Services.AddCors(p => p.AddPolicy("corsapp", builder =>
     {
         builder.WithOrigins("*").AllowAnyMethod().AllowAnyHeader();
-    }));
+    })); */
 
     // Setup dependency injection
     builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();  //or addsingleton

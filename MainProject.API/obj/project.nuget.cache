@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Fte+XKS9iwDdd8z59OqkeuNm9fAAN2IPt/hbbb13fNhg7WA311+U5IUlfn2crKSTHIJrzPcVUT7aURCU7javvQ==",
+  "dgSpecHash": "Qr2DcbOa8i/iHo7ZPP/D0kU3HE2AxkSol8A2UUbezYcdgUA8SdxCIxiGCbD1HXoQHPoyMAihcRXrWhwvAEZ3Ig==",
   "success": true,
-  "projectFilePath": "/Users/tatiana/Desktop/ProjectAPI/mainproject.api/MainProject.API.csproj",
+  "projectFilePath": "/Users/tatiana/Desktop/ProjectAPI/MainProject.API/MainProject.API.csproj",
   "expectedPackageFiles": [
     "/Users/tatiana/.nuget/packages/amazon.extensions.configuration.systemsmanager/5.0.1/amazon.extensions.configuration.systemsmanager.5.0.1.nupkg.sha512",
     "/Users/tatiana/.nuget/packages/awssdk.appconfigdata/3.7.0.23/awssdk.appconfigdata.3.7.0.23.nupkg.sha512",
