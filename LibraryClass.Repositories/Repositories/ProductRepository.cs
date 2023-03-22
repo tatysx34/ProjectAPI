@@ -61,15 +61,27 @@ namespace LibraryClass.Repositories.Repositories
         }
 
         // search repository
-        // Get a single existing game by Id// pull out the database
-        public async Task<Product> GetBySearch(string searchItem)  //get by search
-        {
-            // Get the entity
-            var result = await _context.Products.FirstOrDefaultAsync(i => i.Title.Contains(searchItem));
+        // 
+      // public async Task<Product> GetBySearch()//(string searchItem)  //get by search
+      //  {
+           
+            public async Task<List<Product>> GetBySearch()
+            {
+            
+                var results = await _context.Products.ToListAsync();
+
+                // Return the retrieved entities
+                return results;
+            }
+
+
+
+            /*// Get the entity
+            var result = await _context.Products.FirstOrDefaultAsync(i => i.Title.Contains());//(searchItem));
             if (result == null)
                 throw new NotFoundException("I am sorry we could not find any item with that name");
 
-            return result;
+            return result;*/
         }
     }
-}
+

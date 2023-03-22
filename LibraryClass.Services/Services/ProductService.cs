@@ -4,12 +4,14 @@ using LibraryClass.Models.Entities;
 using LibraryClass.Models.ViewModels;
 using LibraryClass.Repositories.Repositories;
 using LibraryClass.Services.Services.Interfaces;
+using Microsoft.AspNetCore.Http;
 
 namespace LibraryClass.Services.Services
 {
     public class ProductService : IProductService
     {
         private readonly IUnitOfWork _uow;
+      //  private IEnumerable<Product> results;
 
         public ProductService(IUnitOfWork uow)
         {
@@ -34,10 +36,10 @@ namespace LibraryClass.Services.Services
 
         public async Task<List<ProductVM>> GetAll()
         {
-            // Get the Game entities from the repository
+            // Get the Product entities from the repository
             var results = await _uow.Products.GetAll();
 
-            // Build the GameVM view models to return to the client
+            // Build the ProductVM view models to return to the client
             var models = results.Select(product => new ProductVM(product)).ToList();
 
             // Return the GameVMs
@@ -88,25 +90,35 @@ namespace LibraryClass.Services.Services
             _uow.Products.Delete(entity);
             await _uow.SaveAsync();
         }
+        
         // list of product search // TODO
-        public async Task<ProductVM> GetBySearch(string searchItem)
+        public async Task<List<ProductVM>> GetBySearch()//(string searchItem)
         {
-            // Get the requested Game entity from the repository
-            var result = await _uow.Products.GetBySearch(searchItem);
 
-            // Create the GameVM we want to return to the client
-            var model = new ProductVM(result);
+            var result = await _uow.Products.GetBySearch();//(searchItem);
 
-            // Return a 200 response with the GameVM
-            return model;
+            var models = result.Select(product => new ProductVM(product)).ToList();
+
+            return models; 
         }
     }
 }
 
-	
+
+/*
+
+public async Task<List<ProductVM>> GetAll()
+{
+    // Get the Product entities from the repository
+    var results = await _uow.Products.GetAll();
+
+    // Build the ProductVM view models to return to the client
+    var models = results.Select(product => new ProductVM(product)).ToList();
+
+    // Return the GameVMs
+    return models;
+}
 
 
 
-
-    
-
+*/

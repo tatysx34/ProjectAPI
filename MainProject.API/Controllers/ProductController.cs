@@ -127,7 +127,7 @@ namespace MainProject.API.Controllers
         public async Task<ActionResult<ProductVM>> Search([FromRoute] string searchItem)
         {
             
-            var result = await _productService.GetBySearch(searchItem);
+            var result = await _productService.GetBySearch();
 
             // 
             return Ok(result);

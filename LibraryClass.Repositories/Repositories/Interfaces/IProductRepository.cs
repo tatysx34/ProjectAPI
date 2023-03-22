@@ -11,6 +11,6 @@ namespace LibraryClass.Repositories.Repositories.Interfaces
             Task<List<Product>> GetAll();        // Get all of the products
             void Update(Product entity);         // Update an existing product
             void Delete(Product entity);         // Delete a product
-            Task<Product> GetBySearch(string searchItem); // to create search function
+            Task<List<Product>> GetBySearch();//(string searchItem); // to create search function
         }
     }

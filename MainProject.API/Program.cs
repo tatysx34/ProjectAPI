@@ -13,10 +13,10 @@ using Microsoft.OpenApi.Models;
 
 void ConfigureHost(ConfigureHostBuilder host)
 {
- /*
-        host.ConfigureAppConfiguration((uilder) => {
+ 
+        host.ConfigureAppConfiguration((builder) => {
             builder.AddSystemsManager("/" + Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") + "/");
-        }); */
+        }); 
     }
 
 

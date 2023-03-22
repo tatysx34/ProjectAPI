@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using LibraryClass.Models.Entities;
 using LibraryClass.Models.ViewModels;
 
 namespace LibraryClass.Services.Services.Interfaces
@@ -17,6 +18,7 @@ namespace LibraryClass.Services.Services.Interfaces
             Task<List<ProductVM>> GetAll();            // Get all of the games
             Task<ProductVM> Update(ProductUpdateVM src);  // Update an existing game
             Task Delete(Guid id);                   // Delete a game
-            Task<ProductVM> GetBySearch(string searchItem);  //search item
+            Task<List<ProductVM>> GetBySearch();//(string searchItem);  //THIS IS DONE?
+            
         }
     }
