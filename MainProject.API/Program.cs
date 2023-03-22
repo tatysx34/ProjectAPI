@@ -129,10 +129,21 @@ void ExecuteMigrations(WebApplication app)
         context.Database.Migrate();
     }
 }
-
+//cors origin for frontend access my site
+var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 
 // Create the WebApplicationBuilder instance
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: MyAllowSpecificOrigins,
+                      policy =>
+                      {
+                          policy.WithOrigins("http://localhost:3000");
+
+                      });
+});
 
 // Setup the application
 ConfigureHost(builder.Host);
@@ -142,6 +153,8 @@ var app = builder.Build();
 
 // Execute migrations on startup
 ExecuteMigrations(app);
+
+app.UseCors(MyAllowSpecificOrigins);
 
 // Setup the HTTP pipeline
 ConfigurePipeline(app);
